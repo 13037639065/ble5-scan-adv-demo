@@ -1,0 +1,522 @@
+Bluetooth monitor ver 5.62
+= Note: Linux version 5.13.0-48-generic (x86_64)                       0.312421
+= Note: Bluetooth subsystem version 2.22                               0.312422
+= New Index: A4:42:3B:EA:E4:52 (Primary,USB,hci2)               [hci2] 0.312423
+= Open Index: A4:42:3B:EA:E4:52                                 [hci2] 0.312423
+= Index Info: A4:42:3B:EA:E4:52 (Intel Corp.)                   [hci2] 0.312423
+= New Index: 04:7F:0E:16:43:2F (Primary,USB,hci0)               [hci0] 0.312423
+= Open Index: 04:7F:0E:16:43:2F                                 [hci0] 0.312424
+= Index Info: 04:7F:0E:16:43:2F (Barrot Technology Limited)     [hci0] 0.312424
+@ RAW Open: scanner (privileged) version 2.22          {0x0002} [hci2] 0.312424
+@ MGMT Open: bluetoothd (privileged) version 1.20             {0x0001} 0.312425
+> HCI Event: LE Meta Event (0x3e) plen 44                    #1 [hci2] 0.992363
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Random (0x01)
+          Address: 5F:0F:BA:27:72:8A (Resolvable)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -91 dBm (0xa5)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x12
+        02 01 1a 02 0a 08 0b ff 4c 00 10 06 21 1a 2d 30  ........L...!.-0
+        d3 e7                                            ..              
+        Flags: 0x1a
+          LE General Discoverable Mode
+          Simultaneous LE and BR/EDR (Controller)
+          Simultaneous LE and BR/EDR (Host)
+        TX power: 8 dBm
+        Company: Apple, Inc. (76)
+          Type: Unknown (16)
+          Data: 211a2d30d3e7
+> HCI Event: LE Meta Event (0x3e) plen 44                    #2 [hci2] 7.156636
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Random (0x01)
+          Address: 49:17:1A:0F:61:9F (Resolvable)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -89 dBm (0xa7)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x12
+        02 01 1a 02 0a 0c 0b ff 4c 00 10 06 14 1a 33 b1  ........L.....3.
+        c4 99                                            ..              
+        Flags: 0x1a
+          LE General Discoverable Mode
+          Simultaneous LE and BR/EDR (Controller)
+          Simultaneous LE and BR/EDR (Host)
+        TX power: 12 dBm
+        Company: Apple, Inc. (76)
+          Type: Unknown (16)
+          Data: 141a33b1c499
+@ RAW Close: scanner                                  {0x0002} [hci2] 33.101386
+@ RAW Open: scanner (privileged) version 2.22                {0x0002} 35.949069
+@ RAW Close: scanner                                         {0x0002} 35.949082
+@ RAW Open: scanner (privileged) version 2.22         {0x0002} [hci2] 35.949088
+< HCI Command: LE Set Extended Sca.. (0x08|0x0041) plen 13  #3 [hci2] 35.949150
+        Own address type: Reserved (0x30)
+        Filter policy: Reserved (0x13)
+        PHYs: 0xe8
+          Unknown scanning PHYs (0xe8)
+> HCI Event: Command Complete (0x0e) plen 4                 #4 [hci2] 36.064000
+      LE Set Extended Scan Parameters (0x08|0x0041) ncmd 1
+        Status: Invalid HCI Command Parameters (0x12)
+< HCI Command: LE Set Extended Scan.. (0x08|0x0042) plen 6  #5 [hci2] 36.064201
+        Extended scan: Enabled (0x01)
+        Filter duplicates: Enabled (0x01)
+        Duration: 100 msec (0x000a)
+        Period: 3.84 sec (0x0003)
+> HCI Event: Command Complete (0x0e) plen 4                 #6 [hci2] 36.065003
+      LE Set Extended Scan Enable (0x08|0x0042) ncmd 2
+        Status: Success (0x00)
+> HCI Event: LE Meta Event (0x3e) plen 34                   #7 [hci2] 36.086060
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0010
+            Props: 0x0010
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_NONCONN_IND (0x0010)
+          Address type: Random (0x01)
+          Address: E5:5D:7A:DE:42:9C (Static)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -90 dBm (0xa6)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x08
+        07 ff 4c 00 12 02 00 01                          ..L.....        
+        Company: Apple, Inc. (76)
+          Type: Unknown (18)
+          Data: 0001
+> HCI Event: LE Meta Event (0x3e) plen 51                   #8 [hci2] 36.115083
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0000
+            Props: 0x0000
+            Data status: [0;32mComplete[0m
+          Address type: Random (0x01)
+          Address: C0:DE:52:00:00:02 (Static)
+          Primary PHY: LE 1M
+          Secondary PHY: LE 2M
+          SID: 0x01
+          TX power: 127 dBm
+          RSSI: -37 dBm (0xdb)
+          Periodic advertising interval: 250.00 msec (0x00c8)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x19
+        02 01 06 02 0a eb 12 09 45 53 50 5f 4d 55 4c 54  ........ESP_MULT
+        49 5f 41 44 56 5f 32 4d 00                       I_ADV_2M.       
+        Flags: 0x06
+          LE General Discoverable Mode
+          BR/EDR Not Supported
+        TX power: -21 dBm
+        Name (complete): ESP_MULTI_ADV_2M
+> HCI Event: LE Meta Event (0x3e) plen 34                   #9 [hci2] 36.217523
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0010
+            Props: 0x0010
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_NONCONN_IND (0x0010)
+          Address type: Random (0x01)
+          Address: DC:B7:7B:1C:52:FC (Static)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -86 dBm (0xaa)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x08
+        07 ff 4c 00 12 02 00 03                          ..L.....        
+        Company: Apple, Inc. (76)
+          Type: Unknown (18)
+          Data: 0003
+> HCI Event: LE Meta Event (0x3e) plen 47                  #10 [hci2] 36.403569
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Public (0x00)
+          Address: B4:60:ED:A7:B1:DC (OUI B4-60-ED)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -56 dBm (0xc8)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x15
+        02 01 06 11 16 95 fe b0 54 eb 06 00 dc b1 a7 ed  ........T.......
+        60 b4 08 0e 00                                   `....           
+        Flags: 0x06
+          LE General Discoverable Mode
+          BR/EDR Not Supported
+        Service Data (UUID 0xfe95): b054eb0600dcb1a7ed60b4080e00
+> HCI Event: LE Meta Event (0x3e) plen 57                  #11 [hci2] 36.467098
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Public (0x00)
+          Address: E0:B6:55:49:4C:4B (Beijing Xiaomi Electronics Co., Ltd.)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -95 dBm (0xa1)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x1f
+        02 01 02 17 ff 8f 03 0a 10 ff ff ff 42 1d da 1d  ............B...
+        41 b0 de 20 11 08 08 10 17 25 34 03 03 aa fd     A.. .....%4.... 
+        Flags: 0x02
+          LE General Discoverable Mode
+        Company: Xiaomi Inc. (911)
+          Data: 0a10ffffff421dda1d41b0de2011080810172534
+        16-bit Service UUIDs (complete): 1 entry
+          Xiaomi Inc. (0xfdaa)
+> HCI Event: LE Meta Event (0x3e) plen 54                  #12 [hci2] 36.695080
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Random (0x01)
+          Address: DC:C4:F9:AA:29:0E (Static)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -75 dBm (0xb5)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x1c
+        02 01 06 0f 16 95 fe 31 30 89 04 05 0e 29 aa f9  .......10....)..
+        c4 dc 09 08 09 53 4d 49 2d 4d 31 53              .....SMI-M1S    
+        Flags: 0x06
+          LE General Discoverable Mode
+          BR/EDR Not Supported
+        Service Data (UUID 0xfe95): 31308904050e29aaf9c4dc09
+        Name (complete): SMI-M1S
+> HCI Event: LE Meta Event (0x3e) plen 34                  #13 [hci2] 37.215086
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0010
+            Props: 0x0010
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_NONCONN_IND (0x0010)
+          Address type: Random (0x01)
+          Address: D4:0D:20:6A:E4:5D (Static)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -58 dBm (0xc6)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x08
+        07 ff 4c 00 12 02 00 01                          ..L.....        
+        Company: Apple, Inc. (76)
+          Type: Unknown (18)
+          Data: 0001
+> HCI Event: LE Meta Event (0x3e) plen 47                  #14 [hci2] 37.749250
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Public (0x00)
+          Address: EC:C5:7F:40:06:2B (Suzhou Pairlink Network Technology)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -95 dBm (0xa1)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x15
+        02 01 06 03 03 0a 18 0d 09 31 31 31 31 30 31 30  .........1111010
+        30 30 31 33 33                                   00133           
+        Flags: 0x06
+          LE General Discoverable Mode
+          BR/EDR Not Supported
+        16-bit Service UUIDs (complete): 1 entry
+          Device Information (0x180a)
+        Name (complete): 111101000133
+> HCI Event: LE Meta Event (0x3e) plen 44                  #15 [hci2] 38.527208
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Random (0x01)
+          Address: 5F:0F:BA:27:72:8A (Resolvable)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -95 dBm (0xa1)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x12
+        02 01 1a 02 0a 08 0b ff 4c 00 10 06 61 1e 2d 30  ........L...a.-0
+        d3 e7                                            ..              
+        Flags: 0x1a
+          LE General Discoverable Mode
+          Simultaneous LE and BR/EDR (Controller)
+          Simultaneous LE and BR/EDR (Host)
+        TX power: 8 dBm
+        Company: Apple, Inc. (76)
+          Type: Unknown (16)
+          Data: 611e2d30d3e7
+> HCI Event: LE Meta Event (0x3e) plen 45                  #16 [hci2] 39.205259
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Public (0x00)
+          Address: A4:C1:38:39:68:EA (Telink Semiconductor (Taipei) Co. Ltd.)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -53 dBm (0xcb)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x13
+        02 01 06 0f 16 95 fe 30 58 5b 05 d9 ea 68 39 38  .......0X[...h98
+        c1 a4 08                                         ...             
+        Flags: 0x06
+          LE General Discoverable Mode
+          BR/EDR Not Supported
+        Service Data (UUID 0xfe95): 30585b05d9ea683938c1a408
+> HCI Event: LE Meta Event (0x3e) plen 43                  #17 [hci2] 51.235795
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Random (0x01)
+          Address: 5B:E6:87:F4:DD:3A (Resolvable)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -92 dBm (0xa4)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x11
+        02 01 1a 02 0a 0c 0a ff 4c 00 10 05 58 1c 72 c4  ........L...X.r.
+        eb                                               .               
+        Flags: 0x1a
+          LE General Discoverable Mode
+          Simultaneous LE and BR/EDR (Controller)
+          Simultaneous LE and BR/EDR (Host)
+        TX power: 12 dBm
+        Company: Apple, Inc. (76)
+          Type: Unknown (16)
+          Data: 581c72c4eb
+> HCI Event: LE Meta Event (0x3e) plen 34                  #18 [hci2] 52.797820
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Random (0x01)
+          Address: FA:F5:07:E0:8C:FD (Static)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -69 dBm (0xbb)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x08
+        07 ff 4c 00 12 02 39 00                          ..L...9.        
+        Company: Apple, Inc. (76)
+          Type: Unknown (18)
+          Data: 3900
+> HCI Event: LE Meta Event (0x3e) plen 34                  #19 [hci2] 65.812398
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0010
+            Props: 0x0010
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_NONCONN_IND (0x0010)
+          Address type: Random (0x01)
+          Address: C9:61:6F:AC:81:8D (Static)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -96 dBm (0xa0)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x08
+        07 ff 4c 00 12 02 00 02                          ..L.....        
+        Company: Apple, Inc. (76)
+          Type: Unknown (18)
+          Data: 0002
+> HCI Event: LE Meta Event (0x3e) plen 56                  #20 [hci2] 66.582496
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Random (0x01)
+          Address: E2:32:13:5D:E7:78 (Static)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -99 dBm (0x9d)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x1e
+        02 01 06 0c ff ff ff 00 3a 64 ce be d5 23 03 ff  ........:d...#..
+        0d 09 48 42 39 30 36 30 32 35 31 33 34 32        ..HB9060251342  
+        Flags: 0x06
+          LE General Discoverable Mode
+          BR/EDR Not Supported
+        Company: internal use (65535)
+          Data: 003a64cebed52303ff
+        Name (complete): HB9060251342
+> HCI Event: LE Meta Event (0x3e) plen 45                  #21 [hci2] 94.992533
+      LE Extended Advertising Report (0x0d)
+        Num reports: 1
+        Entry 0
+          Event type: 0x0013
+            Props: 0x0013
+              Connectable
+              Scannable
+              Use legacy advertising PDUs
+            Data status: [0;32mComplete[0m
+          Legacy PDU Type: ADV_IND (0x0013)
+          Address type: Random (0x01)
+          Address: 69:C3:C6:03:49:E4 (Resolvable)
+          Primary PHY: LE 1M
+          Secondary PHY: No packets
+          SID: no ADI field (0xff)
+          TX power: 127 dBm
+          RSSI: -91 dBm (0xa5)
+          Periodic advertising interval: 0.00 msec (0x0000)
+          Direct address type: Public (0x00)
+          Direct address: 00:00:00:00:00:00 (OUI 00-00-00)
+          Data length: 0x13
+        02 01 1a 02 0a 07 0c ff 4c 00 10 07 21 1f ab fd  ........L...!...
+        12 b8 08                                         ...             
+        Flags: 0x1a
+          LE General Discoverable Mode
+          Simultaneous LE and BR/EDR (Controller)
+          Simultaneous LE and BR/EDR (Host)
+        TX power: 7 dBm
+        Company: Apple, Inc. (76)
+          Type: Unknown (16)
+          Data: 211fabfd12b808
+< HCI Command: LE Set Extended Sca.. (0x08|0x0042) plen 6  #22 [hci2] 94.992767
+        Extended scan: Disabled (0x00)
+        Filter duplicates: Disabled (0x00)
+        Duration: 0 msec (0x0000)
+        Period: 0.00 sec (0x0000)
+> HCI Event: Command Complete (0x0e) plen 4                #23 [hci2] 95.004927
+      LE Set Extended Scan Enable (0x08|0x0042) ncmd 2
+        Status: Success (0x00)
+@ RAW Close: scanner                                  {0x0002} [hci2] 95.005124
