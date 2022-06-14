@@ -1,0 +1,3 @@
+#!/bin/bash
+cc scan.c -lbluetooth -o scanner
+cc advertise.c -lbluetooth -o advertise
